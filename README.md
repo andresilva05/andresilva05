@@ -1,13 +1,13 @@
 # Hi there :fire:
 
-Sou André Silva, uma entusiasta da programação focado em desenvolvimento Front End, em busca de novos desafios e oportunidades para crescer profissionalmente. Estou animado para compartilhar um pouco sobre mim e mostrar minhas habilidades.
-<br>
+I'm André Silva, a programming enthusiast focused on Front End development, looking for new challenges and opportunities to grow professionally. I'm excited to share a little about myself and showcase my skills.
 <br>
 
-## Resumo
-🚀 Tenho paixão por transformar linhas de código em soluções inovadoras e funcionais. Com habilidades sólidas em programação Front End, estou sempre ansioso para aprender e dominar novas tecnologias.
+## Summary
+🚀 I have a passion for transforming lines of code into innovative and functional solutions. With solid skills in Front End programming, I am always eager to learn and master new technologies.
 
-## Tecnologias
+
+## Technologies
 
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="logo-html">
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="">
