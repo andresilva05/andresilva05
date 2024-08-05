@@ -1,0 +1,32 @@
+name: Generate Snake
+
+on:
+  schedule: 
+    - cron: "0 0 * * *" # Executa diariamente às 00:00 UTC
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+
+      - name: Generate Snake animation
+        uses: Platane/snk@v2.0.0
+        with:
+          github_user_name: andre05 # Substitua pelo seu nome de usuário do GitHub
+          outputs: dist/snake.svg
+
+      - name: Add and commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "Generate snake animation"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: output # O branch onde o arquivo será salvo
